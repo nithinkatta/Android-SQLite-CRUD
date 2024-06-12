@@ -61,6 +61,8 @@ public class Update extends Fragment {
             dbHelper.insertRecord(t,n,a);
 //            dbHelper.getAllRecords(R.layout.activity_main);
             Toast.makeText(getActivity(), "Record Updated", Toast.LENGTH_SHORT).show();
+
+            
         });
 
         return view;

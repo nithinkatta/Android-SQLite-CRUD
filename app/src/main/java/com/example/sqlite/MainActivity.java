@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements Create.OnFragment
 
 //         Insert a record
 //        dbHelper.createTable("new");
-        long id = dbHelper.insertRecord("new","Naga Nithin", 20);
+//        long id = dbHelper.insertRecord("new","Naga Nithin", 20);
 
         // Read all records
         StringBuilder records = new StringBuilder();
@@ -90,10 +90,10 @@ public class MainActivity extends AppCompatActivity implements Create.OnFragment
         transaction.addToBackStack(null);
         transaction.commit();
     }
-    @Override
-    public void onFragmentBButtonClicked() {
-
-    }
+//    @Override
+//    public void onFragmentBButtonClicked() {
+//
+//    }
 
     @Override
     public void onFragmentCButtonClicked() {
